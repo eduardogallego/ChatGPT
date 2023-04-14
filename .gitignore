@@ -1,4 +1,5 @@
 /.idea/
 /chat_gpt.log
 /config.json
+/venv/
 /workingdir/
