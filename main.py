@@ -7,9 +7,6 @@ from rich.table import Table
 
 config = Config()
 openai.api_key = config.get('api_key')
-
-print("[bold green]ChatGPT API en Python[/bold green]")
-
 table = Table("Comando", "Descripción")
 table.add_row("exit", "Stop the CLI")
 table.add_row("new", "Start new conversation")
